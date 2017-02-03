@@ -42,7 +42,7 @@ public class BeaconServer {
             String lineRead=bReader.readLine();
             System.out.println(lineRead);
 
-            System.out.println("YO");
+            System.out.println("green, orange or red ? > ");
             //send response to spp client
             OutputStream outStream = connection.openOutputStream();
             PrintWriter pWriter = new PrintWriter(new OutputStreamWriter(outStream));
